@@ -1,0 +1,79 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: sans-serif;
+}
+
+body {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    height: 100vh;
+    gap: 50px;
+}
+
+.container {
+    width: 700px;
+    height: 400px;
+    margin: 0 auto;
+    border-radius: 50px;
+    padding: 20px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    box-shadow: rgba(99, 99, 99, 0.2) 0px 2px 8px 0px;
+}
+
+.user1,
+.user2 {
+    width: 300px;
+    height: 100%;
+    border: 1px solid dodgerblue;
+    border-radius: 20px;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    padding: 20px 10px;
+}
+
+.player {
+    font-size: 30px;
+    color: black;
+    margin-bottom: 20px;
+}
+
+.value {
+    font-size: 30px;
+    color: dodgerblue;
+}
+
+.click {
+    width: 200px;
+    height: 40px;
+    border-radius: 30px;
+    border: none;
+    background-color: dodgerblue;
+    font-size: 20px;
+    margin-top: 150px;
+    cursor: pointer;
+}
+
+.click:hover {
+    opacity: .5;
+}
+
+
+.result {
+    width: 400px;
+    height: 100px;
+    background-color: dodgerblue;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: white;
+    font-size: 24px;
+    text-align: center;
+    border-radius: 10px; 
+}
